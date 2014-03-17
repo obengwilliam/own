@@ -201,4 +201,10 @@ $(document).ready(function(){
 		header.fadeOut('1000', function(){header.text('tailor-made website features')});
 		header.fadeIn('1000');
 	});
+
+	//project showcases
+	proj1.mouseenter(function(){
+		header.fadeOut('1000', function(){header.text('movie producer speaker')});
+		header.fadeIn('1000');
+	})
 });
